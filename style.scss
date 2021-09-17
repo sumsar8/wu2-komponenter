@@ -1,7 +1,8 @@
-body{
+*{
     margin:0px;
     padding:0px;
 }
+
 
 $primaryblack: #181b21;
 $primarywhite: #f5f5f5;
@@ -9,6 +10,19 @@ $primarywhite: #f5f5f5;
 @import "komponenter/bottombutton";
 @import "komponenter/footer";
 @import "komponenter/navbar";
+@import "komponenter/maintext";
 @import "utilities/textstyle";
 @import "utilities/menybutton";
 
+.logo-img{
+    width:8rem;
+    margin-left: 1rem;
+}
+
+html { 
+    background: url(images/car.jfif) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
