@@ -1,1 +1,1 @@
-{"version":3,"sourceRoot":"","sources":[],"names":[],"mappings":"","file":"style.css"}
+{"version":3,"sourceRoot":"","sources":["style.scss","komponenter/_navbar.scss","utilities/textstyle.scss"],"names":[],"mappings":"AAAA;EACI;EACA;;;ACFJ;EACI;;AACA;EACI;EACA;;AACA;EACQ;EACA;EACA;;;ACRhB;EACI,OFIW;;;AEFf;EACI;EACA","file":"style.css"}

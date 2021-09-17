@@ -1,0 +1,14 @@
+body{
+    margin:0px;
+    padding:0px;
+}
+
+$primaryblack: #181b21;
+$primarywhite: #f5f5f5;
+
+@import "komponenter/bottombutton";
+@import "komponenter/footer";
+@import "komponenter/navbar";
+@import "utilities/textstyle";
+@import "utilities/menybutton";
+
