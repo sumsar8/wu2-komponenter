@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
 * {
   margin: 0px;
   padding: 0px;
@@ -13,6 +14,20 @@
   display: flex;
   list-style: none;
   justify-content: space-between;
+}
+
+.meny-button-text-container {
+  padding-top: 2rem;
+  padding-right: 1.5rem;
+  display: none;
+}
+.meny-button-text-container .meny-button-text {
+  color: #181b21;
+}
+
+.model-button-container {
+  padding-top: 2rem;
+  display: none;
 }
 
 .main-text {
@@ -32,6 +47,10 @@ a {
   padding: 10px;
 }
 
+a.underlinetext {
+  text-decoration: solid;
+}
+
 .menybutton {
   background: rgba(24, 27, 33, 0.15);
   border: none;
@@ -41,10 +60,25 @@ a {
   margin-top: 2rem;
   width: 6rem;
 }
+@media screen and (min-width: 1200px) {
+  .menybutton {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .container1200w {
+    display: inherit;
+  }
+}
 
 .logo-img {
   width: 8rem;
   margin-left: 1rem;
+}
+
+body {
+  font-family: "Lato", sans-serif;
 }
 
 html {

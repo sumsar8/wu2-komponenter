@@ -9,3 +9,17 @@
         }
     }
 }
+.meny-button-text-container{
+    padding-top: 2rem;
+    padding-right: 1.5rem;
+    display: none;
+    .meny-button-text{
+        color:$primaryblack;
+    }
+}
+
+.model-button-container{
+    padding-top: 2rem;
+
+    display:none;
+}
