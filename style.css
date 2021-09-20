@@ -4,6 +4,10 @@
   padding: 0px;
 }
 
+body {
+  font-family: "Lato", sans-serif;
+}
+
 .navbar {
   background-color: transparent;
 }
@@ -34,21 +38,8 @@
   display: flex;
   flex-direction: column;
   text-align: center;
-}
-
-h1 {
-  color: #181b21;
-}
-
-a {
-  font-size: 1.3rem;
-  text-decoration: none;
-  color: #181b21;
-  padding: 10px;
-}
-
-a.underlinetext {
-  text-decoration: solid;
+  justify-content: center;
+  padding-top: 2rem;
 }
 
 .menybutton {
@@ -66,6 +57,25 @@ a.underlinetext {
   }
 }
 
+h1 {
+  color: #181b21;
+  font-size: 3rem;
+}
+
+a {
+  font-size: 1.3rem;
+  text-decoration: none;
+  color: #181b21;
+  padding: 10px;
+}
+
+a.underlinetext {
+  font-size: 1.1rem;
+  width: fit-content;
+  display: inline-block;
+  margin: 0 auto;
+}
+
 @media screen and (min-width: 1200px) {
   .container1200w {
     display: inherit;
@@ -75,10 +85,6 @@ a.underlinetext {
 .logo-img {
   width: 8rem;
   margin-left: 1rem;
-}
-
-body {
-  font-family: "Lato", sans-serif;
 }
 
 html {

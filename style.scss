@@ -6,15 +6,17 @@
 
 $primaryblack: #181b21;
 $primarywhite: #f5f5f5;
-
+body{
+    font-family: 'Lato', sans-serif;
+}
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
 @import "komponenter/bottombutton";
 @import "komponenter/footer";
 @import "komponenter/navbar";
 @import "komponenter/maintext";
+@import "komponenter/menybutton";
 @import "utilities/textstyle";
-@import "utilities/menybutton";
 @import "utilities/container1200w";
 
 
@@ -22,8 +24,7 @@ $primarywhite: #f5f5f5;
     width:8rem;
     margin-left: 1rem;
 }
-body{
-    font-family: 'Lato', sans-serif;}
+
 html { 
     background: url(images/car.jfif) no-repeat center center fixed; 
     -webkit-background-size: cover;
